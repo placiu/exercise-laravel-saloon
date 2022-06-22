@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'github' => [
+        'url' => env('GITHUB_API_URL'),
+        'token' => env('GITHUB_API_TOKEN'),
+    ]
+
 ];
